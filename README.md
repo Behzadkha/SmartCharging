@@ -1,4 +1,4 @@
-# SmartCharging
+# SmartCharging (APK is the main directory above the webhooks.jpg)
 APP RUNS IN THE BACKGROUND \
 Turns off the Smart Plug when reaches a certain percentage.\
 <img src="./image.jpg" width="50%" height="50%"/>
