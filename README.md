@@ -1,7 +1,7 @@
 # SmartCharging
 APP RUNS IN THE BACKGROUND \
 Turns off the Smart Plug when reaches a certain percentage.\
-<img src="./image.jpg" />
+<img src="./image.jpg" style="width: 30%"/>
 
 # First Step:
 Login into yout ifttt account and search for webhooks services and connect.\
@@ -22,4 +22,4 @@ Now everytime you send a request to https://maker.ifttt.com/use/webhookpass, it 
 # Now open up the smartcharhing app
 Paste the webhookpass in the space provided and set the battery percentage.
 
-#CLICK SET
+# CLICK on the SET button
