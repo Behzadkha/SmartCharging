@@ -1,7 +1,7 @@
 # SmartCharging
 APP RUNS IN THE BACKGROUND \
 Turns off the Smart Plug when reaches a certain percentage.\
-<img src="./image.jpg" style="width: 30%"/>
+<img src="./image.jpg" width="50px" height="50px"/>
 
 # First Step:
 Login into yout ifttt account and search for webhooks services and connect.\
@@ -13,7 +13,7 @@ You should have something like this: \
 Create a new applet and add webhooks
 
 # Third Step:
-Then +/
+Then + /
 search for the app that connects to your smart plug and connect
 
 # Done
