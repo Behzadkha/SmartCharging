@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText desirelevel;
     private Button btnchange;
     private EditText webhook;
+    private Button steps;
     public static String WEBHOOKPASS;//gets it from the user and is used in setservice()
     private static int level;
     public static boolean deleteservice = false;
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         desirelevel = (EditText) this.findViewById(R.id.chargetostop);
         btnchange = (Button) this.findViewById(R.id.btn_change);
         webhook = (EditText) this.findViewById(R.id.webhook);
+        steps = (Button) this.findViewById(R.id.steps);
         readfile();
         final Intent serviceIntent = new Intent(this, ExampleIntentService.class);
         stopService(serviceIntent);
@@ -81,6 +83,13 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Can't leave any input empty", Toast.LENGTH_LONG).show();
                 }
 
+            }
+        });
+        steps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Behzadkha/SmartCharging"));
+                startActivity(browserIntent);
             }
         });
     }
